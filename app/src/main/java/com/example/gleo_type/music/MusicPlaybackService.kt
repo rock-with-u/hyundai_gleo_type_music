@@ -41,7 +41,6 @@ class MusicPlaybackService : MediaLibraryService() {
         (application as GleoApplication).container
     }
 
-    // 음악 재생 상태 관리
     private var currentSongId: String? = null
     private var hasStartedCurrentSong = false
     private var pausedByUser = false
