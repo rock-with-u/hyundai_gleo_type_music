@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ======================================== -->
+    <!-- 0. 네트워크 및 분석 서버 통신 -->
+    <!-- ======================================== -->
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <!-- ======================================== -->
+    <!-- 1. Media3 음악 재생 권한 -->
+    <!-- ======================================== -->
+
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+    <!-- ======================================== -->
+    <!-- 2. 차량 기본 정보 및 주행 데이터 -->
+    <!-- ======================================== -->
+
+    <!-- 차량 기본 정보 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_INFO" />
+
+    <!-- 주행 모드, 브레이크, 크루즈 컨트롤 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_DRIVE" />
+
+    <!-- 차량 속도 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_SPEED" />
+
+    <!-- 주행 거리 및 누적 거리 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_MILEAGE" />
+
+    <!-- 기어 및 파워트레인 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_POWERTRAIN" />
+
+    <!-- EV 배터리 및 연료 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_ENERGY" />
+
+    <!-- 디스플레이 단위 조회 -->
+    <uses-permission
+        android:name="pleos.car.permission.READ_CAR_DISPLAY_UNITS" />
+
+    <!-- ADAS 상태 조회 -->
+    <uses-permission
+        android:name="pleos.car.permission.READ_ADAS_STATES" />
+
+
+    <!-- ======================================== -->
+    <!-- 3. 도어, 창문, 좌석 및 편의 기능 -->
+    <!-- ======================================== -->
+
+    <!-- 차량 도어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_DOORS" />
+
+    <!-- 차량 창문 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_WINDOWS" />
+
+    <!-- 공조 시스템 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_CLIMATE" />
+
+    <!-- 좌석 시스템 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_SEATS" />
+
+    <!-- 사이드미러 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_MIRRORS" />
+
+
+    <!-- ======================================== -->
+    <!-- 4. 조명, 안전 및 부가 정보 -->
+    <!-- ======================================== -->
+
+    <!-- 차량 조명 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_LIGHTS" />
+
+    <!-- 차량 안전 상태 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_SAFETY" />
+
+    <!-- 타이어 상태 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_TIRES" />
+
+    <!-- 하이패스 및 통행료 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_TOLL" />
+
+    <!-- 와이퍼 상태 -->
+    <uses-permission
+        android:name="pleos.car.permission.READ_WINDSHIELD_WIPERS" />
+
+    <!-- 스티어링 상태 -->
+    <uses-permission
+        android:name="pleos.car.permission.READ_CAR_STEERING" />
+
+    <!-- 제조사 확장 기능 -->
+    <uses-permission
+        android:name="pleos.car.permission.CAR_CONNECT_VENDOR_CONTROL" />
+
+
+    <!-- ======================================== -->
+    <!-- 5. 차량 제어 권한 -->
+    <!-- ======================================== -->
+
+    <!-- 공조 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_CLIMATE" />
+
+    <!-- 도어 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_DOORS" />
+
+    <!-- 주행 관련 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_DRIVE" />
+
+    <!-- 에너지 관련 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_ENERGY" />
+
+    <!-- 차량 정보 관련 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_INFO" />
+
+    <!-- 조명 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_LIGHTS" />
+
+    <!-- 사이드미러 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_MIRRORS" />
+
+    <!-- 안전 관련 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_SAFETY" />
+
+    <!-- 좌석 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_SEATS" />
+
+    <!-- 통행료 관련 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_TOLL" />
+
+    <!-- 창문 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_CAR_WINDOWS" />
+
+    <!-- 와이퍼 제어 -->
+    <uses-permission
+        android:name="pleos.car.permission.CONTROL_WINDSHIELD_WIPERS" />
+
+
+    <!-- ======================================== -->
+    <!-- 6. AAOS CarPropertyManager 권한 -->
+    <!-- ======================================== -->
+
+    <!-- 차량 속도 -->
+    <uses-permission
+        android:name="android.car.permission.CAR_SPEED" />
+
+    <!-- 가속 및 브레이크 페달 -->
+    <uses-permission
+        android:name="android.car.permission.READ_CAR_PEDALS" />
+
+
+    <!-- ======================================== -->
+    <!-- 7. NaviHelper SDK 권한 -->
+    <!-- ======================================== -->
+
+    <!-- 내비게이션 경로 정보 -->
+    <uses-permission
+        android:name="pleos.car.permission.NAVI_ROUTE" />
+
+    <!-- 내비게이션 경로 탐색 -->
+    <uses-permission
+        android:name="pleos.car.permission.NAVI_ROUTE_SEARCH" />
+
+    <!-- 사용자 지도 기능 -->
+    <uses-permission
+        android:name="pleos.car.permission.NAVI_CUSTOM_MAP" />
+
+    <!-- 사용자 경로 기능 -->
+    <uses-permission
+        android:name="pleos.car.permission.NAVI_CUSTOM_ROUTE" />
+
+    <!-- 기타 내비게이션 기능 -->
+    <uses-permission
+        android:name="pleos.car.permission.NAVI_CUSTOM_ETC" />
+
+    <!-- 융합 위치 정보 -->
+    <uses-permission
+        android:name="pleos.car.permission.FUSED_LOCATION" />
+
+
+    <!-- ======================================== -->
+    <!-- 8. 애플리케이션 설정 -->
+    <!-- ======================================== -->
+
+    <application
+        android:name=".GleoApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gleotype"
+        android:usesCleartextTraffic="true">
+
+        <!-- ==================================== -->
+        <!-- Android Automotive 미디어 앱 등록 -->
+        <!-- ==================================== -->
+
+        <meta-data
+            android:name="com.android.automotive"
+            android:resource="@xml/automotive_app_desc" />
+
+
+        <!-- ==================================== -->
+        <!-- 기존 MainActivity -->
+        <!-- ==================================== -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Gleotype"
+            android:windowSoftInputMode="adjustResize">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+        </activity>
+
+
+        <!-- ==================================== -->
+        <!-- Media3 음악 재생 서비스 -->
+        <!-- ==================================== -->
+
+        <service
+            android:name=".music.MusicPlaybackService"
+            android:exported="true"
+            android:foregroundServiceType="mediaPlayback">
+
+            <intent-filter>
+
+                <action
+                    android:name="androidx.media3.session.MediaLibraryService" />
+
+                <action
+                    android:name="android.media.browse.MediaBrowserService" />
+
+            </intent-filter>
+
+        </service>
+
+
+        <!-- ==================================== -->
+        <!-- 음악 재생 테스트 Activity -->
+        <!-- ==================================== -->
+
+        <activity
+            android:name=".music.MusicTestActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Gleotype" />
+
+    </application>
+
+</manifest>

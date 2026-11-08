@@ -1,0 +1,161 @@
+[
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000101",
+    "domain": "VEHICLE",
+    "label": "SPEED_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "speedKmh": "65.5"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000102",
+    "domain": "VEHICLE",
+    "label": "STEERING_ANGLE_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "steeringAngle": "233.0"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000103",
+    "domain": "VEHICLE",
+    "label": "CRUISE_CONTROL_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "cruiseControlState": "ENABLED"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000104",
+    "domain": "VEHICLE",
+    "label": "CRUISE_TARGET_SPEED_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "cruiseTargetSpeedKmh": "83.0"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000105",
+    "domain": "VEHICLE",
+    "label": "GEAR_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "gear": "D"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000106",
+    "domain": "VEHICLE",
+    "label": "BRAKE_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "brakeStatus": "true"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000107",
+    "domain": "VEHICLE",
+    "label": "DOOR_POSITION_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "doorPosition": {
+        "area": "FRONT_LEFT",
+        "state": "CLOSED"
+      }
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000108",
+    "domain": "VEHICLE",
+    "label": "DOOR_LOCK_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "doorLocked": "true"
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000109",
+    "domain": "VEHICLE",
+    "label": "WINDOW_POSITION_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "windowPosition": {
+        "area": "FRONT_LEFT",
+        "state": "CLOSED"
+      }
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000110",
+    "domain": "VEHICLE",
+    "label": "WIPER_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "vehicle": {
+      "wiper": {
+        "area": "FRONT",
+        "state": "ON"
+      }
+    }
+  }
+]

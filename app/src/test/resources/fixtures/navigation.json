@@ -1,0 +1,179 @@
+[
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000301",
+    "domain": "DESTINATION",
+    "label": "SET_DESTINATION",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "navigation": {
+      "destination": {
+        "name": "수원역 1호선",
+        "latitude": "37.26610833",
+        "longitude": "127.00011388",
+        "remainingTimeSec": "11700",
+        "totalDistanceM": "23000",
+        "remainingDistanceM": "15000",
+        "progressPercent": "34.78",
+        "cancelStatus": "false"
+      }
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000302",
+    "domain": "DESTINATION",
+    "label": "CANCEL_DESTINATION",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "navigation": {
+      "destination": {
+        "name": "변경된 목적지",
+        "latitude": "37.26610833",
+        "longitude": "127.00011388",
+        "remainingTimeSec": "11700",
+        "totalDistanceM": "23000",
+        "remainingDistanceM": "15000",
+        "progressPercent": "34.78",
+        "cancelStatus": "true"
+      }
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000303",
+    "domain": "DESTINATION",
+    "label": "CHANGE_DESTINATION",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "navigation": {
+      "destination": {
+        "name": "변경된 목적지",
+        "latitude": "37.26610833",
+        "longitude": "127.00011388",
+        "remainingTimeSec": "11700",
+        "totalDistanceM": "23000",
+        "remainingDistanceM": "15000",
+        "progressPercent": "34.78",
+        "cancelStatus": "false"
+      }
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000304",
+    "domain": "DESTINATION",
+    "label": "REMAINING_DISTANCE_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "navigation": {
+      "destination": {
+        "name": "변경된 목적지",
+        "latitude": "37.26610833",
+        "longitude": "127.00011388",
+        "remainingTimeSec": "11700",
+        "totalDistanceM": "23000",
+        "remainingDistanceM": "15000",
+        "progressPercent": "34.78",
+        "cancelStatus": "false"
+      }
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000305",
+    "domain": "TRAFFIC",
+    "label": "CONGESTION_SEGMENTS_UPDATED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "trafficStatus": {
+      "congestionItemList": [
+        {
+          "offset": "500.0",
+          "distance": "2000.0",
+          "trafficCongestionTime": "600",
+          "trafficCongestionType": "HEAVY",
+          "avrSpeed": "12.0",
+          "roadName": "강변북로",
+          "startCrossName": "성산대교 북단",
+          "endCrossName": "양화대교 북단"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000306",
+    "domain": "WAYPOINT",
+    "label": "LIST_RETRIEVED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "navigation": {
+      "destination": {
+        "name": "성심당 DCC점",
+        "remainingDistanceM": "181000",
+        "remainingTimeSec": "11700",
+        "deleteStatus": "false"
+      },
+      "waypoints": [
+        {
+          "order": "1",
+          "name": "수원역 1호선",
+          "remainingDistanceM": "23000",
+          "remainingTimeSec": "2700"
+        },
+        {
+          "order": "2",
+          "name": "맥도날드 서판교DT점",
+          "remainingDistanceM": "43000",
+          "remainingTimeSec": "4740"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000307",
+    "domain": "FAVORITES",
+    "label": "GET_FAVORITES",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "navigation": {
+      "destination": {
+        "name": "장소이름",
+        "latitude": "37.412721",
+        "longitude": "127.094681",
+        "favoritePlaceId": "102",
+        "placeType": "HOME"
+      }
+    }
+  }
+]

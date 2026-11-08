@@ -1,0 +1,21 @@
+[
+  {
+    "eventId": "e0000000-0000-4000-8000-000000000201",
+    "domain": "LOCATION",
+    "label": "LOCATION_CHANGED",
+    "timestamp": "2026-11-03T22:45:30.123+09:00",
+    "driveSessionId": "11",
+    "music": {
+      "musicId": "101",
+      "currentPositionMs": "65000",
+      "isPlaying": "true"
+    },
+    "location": {
+      "latitude": "37.3977",
+      "longitude": "127.11275",
+      "altitude": "45.0",
+      "heading": "308.21",
+      "timestampMillis": "1793770186280"
+    }
+  }
+]
